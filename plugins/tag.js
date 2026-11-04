@@ -67,14 +67,14 @@ Module({
     // Le bot se déclenche si l'une des deux conditions est vraie
     if (isTagged || isTagTous) {
         // --- LIEN DE TA VIDÉO ICI ---
-        const videoUrl = 'https://eliteprotech-url.zone.id/1789028345720243ril.mp4'; 
+        const videoUrl = 'https://eliteprotech-url.zone.id/1793820050058ggtiv1.MP4'; 
 
         try {
             await message.sendMessage(
                 { url: videoUrl },
                 'video',
                 { 
-                    caption: `> _Salut Je suis là. Qui vient de me taguer et Que puis-je faire pour vous ?_`,
+                    caption: `> _Yes L O I D  F O R G E R  pour vous servir que puis-je faire pour vous?_`,
                     mentions: [message.sender],
                     quoted: message.data 
                 }

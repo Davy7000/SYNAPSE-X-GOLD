@@ -341,7 +341,7 @@ Module(
     const botOwner = "TWILIGHT모";
     const botVersion = VERSION;
 
-    const videoPath = path.join(__dirname, "utils/images/video.mp4");
+    const videoPath = path.join(__dirname, "utils/images/video2.mp4");
 
     // Bloc monospace (```...```): en police à chasse fixe, chaque
     // caractère occupe la même largeur, donc les box-drawing (╭ │ ╰ ─)
