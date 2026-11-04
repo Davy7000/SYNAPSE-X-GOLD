@@ -188,7 +188,7 @@ const baseConfig = {
   VERSION,
   ALIVE:
     process.env.ALIVE ||
-    "_Synapse X prêt pour vous servir (use .setalive help for custom alive msg)_",
+    "_Yo poto Synapse Gold est prêt pour vous servir_",
   BLOCK_CHAT: process.env.BLOCK_CHAT || "",
   PM_ANTISPAM: convertToBool(process.env.PM_ANTISPAM) || "",
   ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || false,
@@ -237,14 +237,14 @@ const baseConfig = {
     "78c84c62b32a88e86daf87dd509a657a",
   ],
   RG: process.env.RG || "",
-  BOT_INFO: process.env.BOT_INFO || " 𝐒𝐘𝐍𝐀𝐏𝐒𝐄-𝐗 모;twilight;man",
+  BOT_INFO: process.env.BOT_INFO || " 𝐒𝐘𝐍𝐀𝐏𝐒𝐄-G 모;twilight;man",
   RBG_KEY: process.env.RBG_KEY || "",
   ALLOWED: process.env.ALLOWED || "91,94,2",
   NOT_ALLOWED: process.env.NOT_ALLOWED || "852",
   CHATBOT: process.env.CHATBOT || "off",
   HANDLERS: process.env.HANDLERS || "!",
-  STICKER_DATA: process.env.STICKER_DATA || " 𝐒𝐘𝐍𝐀𝐏𝐒𝐄-𝐗 모",
-  BOT_NAME: process.env.BOT_NAME || " 𝐒𝐘𝐍𝐀𝐏𝐒𝐄-𝐗 모",
+  STICKER_DATA: process.env.STICKER_DATA || " 𝐒𝐘𝐍𝐀𝐏𝐒𝐄-𝐆 모",
+  BOT_NAME: process.env.BOT_NAME || " 𝐒𝐘𝐍𝐀𝐏𝐒𝐄-𝐆 모",
   AUDIO_DATA:
     process.env.AUDIO_DATA === undefined || process.env.AUDIO_DATA === "private"
       ? "default"
@@ -252,11 +252,11 @@ const baseConfig = {
   TAKE_KEY: process.env.TAKE_KEY || "",
   CMD_REACTION: convertToBool(process.env.CMD_REACTION) || true,
   MODE: process.env.MODE || "private",
-  WARN: process.env.WARN || "4",
+  WARN: process.env.WARN || "3",
   ANTILINK_WARN: process.env.ANTILINK_WARN || "",
   ANTI_DELETE: convertToBool(process.env.ANTI_DELETE) || false,
   SUDO: process.env.SUDO || "242050336960",
-  LANGUAGE: process.env.LANGUAGE || "english",
+  LANGUAGE: process.env.LANGUAGE || "french",
   AUTO_UPDATE: convertToBool(process.env.AUTO_UPDATE) || true,
   SUPPORT_GROUP: process.env.SUPPORT_GROUP || "",
   ACR_A: "ff489a0160188cf5f0750eaf486eee74",

@@ -48,6 +48,7 @@ Module({
 
         // Design moderne et épuré
         const quoteCard =
+            `✨ *Un jour un sage à dit*\n\n` +
             `💬*« ${quoteObj.text} »*\n\n\n` +
             `✍️ *Auteur :* _${quoteObj.author}_`;
 
