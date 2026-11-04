@@ -6,8 +6,8 @@ RUN apk add --no-cache \
     python3 \
     make \
     g++
-ADD https://api.github.com/repos/Davy7000/SYNAPSE-X/git/refs/heads/main version.json
-RUN git clone -b main https://github.com/Davy7000/SYNAPSE-X /rgnk
+ADD https://api.github.com/repos/Davy7000/SYNAPSE-X-GOLD/git/refs/heads/main version.json
+RUN git clone -b main https://github.com/Davy7000/SYNAPSE-X-GOLD /rgnk
 WORKDIR /rgnk
 RUN mkdir -p temp
 ENV TZ=Africa/Brazzaville
