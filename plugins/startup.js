@@ -137,4 +137,27 @@ Module({
     } catch (error) {
         console.error("❌ [SYNAPSE-X] Erreur lors de l'envoi de la notification au propriétaire :", error);
     }
-});
+
+
+
+    
+/*// Langue définie dans config.js
+const rawLang = String(config.LANGUAGE || 'english').trim().toLowerCase();
+
+// [nom affiché, drapeau, valeurs acceptées]
+const languages = [
+    ['Brazilian', '🇧🇷', ['brazilian', 'portuguese', 'pt', 'pt-br', 'pt_br']],
+    ['Chinese', '🇨🇳', ['chinese', 'zh', 'zh-cn', 'zh_cn']],
+    ['English', '🇬🇧', ['english', 'en']],
+    ['French', '🇫🇷', ['french', 'français', 'francais', 'fr']],
+    ['Hinglish', '🇮🇳', ['hinglish']],
+    ['Indonesian', '🇮🇩', ['indonesian', 'id']],
+    ['Manglish', '🇮🇳', ['manglish']],
+    ['Spanish', '🇪🇸', ['spanish', 'español', 'espanol', 'es']],
+    ['Turkish', '🇹🇷', ['turkish', 'tr']]
+];
+
+const found = languages.find(([, , aliases]) => aliases.includes(rawLang));
+
+// Une valeur inconnue est signalée au lieu d'être affichée comme English
+const [botLang, langFlag] = found || [`Inconnue (${rawLang})`, '🌐'];*/
